@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'PJS Medium';
+    src: url("assets/font/PlusJakartaSans-Medium.ttf") format("opentype");
+  }
+  @font-face {
+    font-family: 'PJS EBold';
+    src: url("assets/font/PlusJakartaSans-ExtraBold.ttf") format("opentype");
+  }
+  @font-face {
+    font-family: 'PJS Regular';
+    src: url("assets/font/PlusJakartaSans-Regular.ttf") format("opentype");
+  }
+*{
+    font-family: 'PJS Regular';
+    margin: 0;
+    cursor:default;
+}
